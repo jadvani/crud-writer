@@ -48,8 +48,9 @@
 					</tr>
 					<tr>
 						<td><label>Is he alive?:</label></td>
-						<td><form:input path="alive" /></td>
-					</tr>
+						<td><form:radiobutton path="alive" value="true" />alive<br></td>
+						<td><form:radiobutton path="alive" value="false" />dead<br></td>
+						</tr>
 
 					<tr>
 						<td><label></label></td>

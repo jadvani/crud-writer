@@ -26,7 +26,7 @@ public class Customer {
 	private String lastWork;
 
 	@Column(name = "alive")
-	private String alive;
+	private boolean alive;
 
 	public Customer() {
 
@@ -64,11 +64,11 @@ public class Customer {
 		this.lastWork = lastWork;
 	}
 
-	public String getAlive() {
+	public boolean getAlive() {
 		return alive;
 	}
 
-	public void setAlive(String alive) {
+	public void setAlive(boolean alive) {
 		this.alive = alive;
 	}
 
