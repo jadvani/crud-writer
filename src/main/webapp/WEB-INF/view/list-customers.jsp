@@ -32,6 +32,19 @@
 				onclick="window.location.href='showFormForAdd'; return false;"
 				class="add-button" />
 
+			<!-- search box -->
+
+			<%@ taglib prefix="form"
+				uri="http://www.springframework.org/tags/form"%>
+			<!--  add a search box -->
+			<form:form action="search" method="POST">
+                Search customer: <input type="text" name="theSearchName" />
+
+				<input type="submit" value="Search" class="add-button" />
+			</form:form>
+
+
+
 			<!--  add our html table here -->
 
 			<table>
